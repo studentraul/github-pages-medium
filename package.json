@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "publish": "./node_modules/.bin/gh-pages -d dist/"
+    "publish": "surge -p ./dist -d publish-frontend-project.surge.sh"
   },
   "repository": {
     "type": "git",
